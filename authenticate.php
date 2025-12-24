@@ -25,7 +25,7 @@ if ($result->num_rows === 1) {
         $_SESSION['lastname'] = $user['lastname'];
         $_SESSION['role'] = $user['role'];
 
-        header("Location: home.php");
+        header("Location: sidebar.php");
         exit();
     } else {
         echo "Invalid password.";
