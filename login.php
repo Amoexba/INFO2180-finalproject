@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Dolphin CRM - Login</title>
+  <title>Dolphin CRM</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -24,7 +24,7 @@
   </div>
 
   <footer class="login-footer">
-    <p>Copyright © 2022 Dolphin CRM</p>
+    <p>Copyright © 2025 Dolphin CRM</p>
   </footer>
 </body>
 </html>
