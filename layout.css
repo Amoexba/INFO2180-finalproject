@@ -1,23 +1,35 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+body { 
+  margin: 0; 
+  background-color: white; 
+  font-family: Georgia, serif; 
 }
 
-.login-header {
-  background-color: #2c3e50;
+.login-container {
+  text-align: center;
   color: white;
-  padding: 20px;
-  text-align: left;
+}
+
+.login-header { 
+  background-color: #2c3e50; 
+  padding: 15px 30px; 
+  display: flex; 
+  align-items: center; }
+
+.brand h1 {
+  font-family: Georgia, serif;
+  font-size: 28px;
+  margin: 0;
+  color: white;
 }
 
 .login-box {
   width: 300px;
-  margin: 60px auto;
+  margin: 20px auto;
   padding: 30px;
   background-color: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   border-radius: 8px;
+  color: #2c3e50
 }
 
 .login-box h2 {
@@ -39,19 +51,23 @@ body {
 }
 
 .login-box button {
-  width: 100%;
-  padding: 10px;
-  background-color: #2980b9;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  font-size: 16px;
+width: 100%; 
+padding: 10px; 
+background-color: #4887c7;  
+color: white; 
+border: none; 
+border-radius: 4px; 
+font-size: 16px; 
+font-family: Georgia, serif; 
+cursor: pointer; 
+transition: 
+background-color 0.3s ease;
 }
 
 .login-footer {
-  text-align: center;
-  margin-top: 40px;
-  color: #777;
+  font-size: 12px;
+  margin-top: 20px;
+  color: white;
 }
 
 .sidebar {
@@ -85,6 +101,10 @@ body {
   text-decoration: none;
   display: block; 
   padding: 10px 0;
+}
+
+.sidebar ul li a:hover {
+  color: #f1c40f;
 }
 
 .main-content {
@@ -128,5 +148,79 @@ table th {
   font-size: 22px;
   color: white;
   margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-user-btn {
+  background-color: #007BFF; /* blue */
+  color: white;
+  padding: 8px 14px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.add-user-btn:hover {
+  background-color: #0056b3; /* darker blue */
+}
+
+.form-panel {
+  display: none;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 500px;
+}
+
+.form-panel h2 {
+  margin-bottom: 15px;
+}
+
+.form-panel label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.form-panel input,
+.form-panel select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  margin-top: 15px;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.form-wrapper { 
+  display: flex; 
+  justify-content: center;  
+  margin-top: 20px; 
 }
 

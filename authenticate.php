@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 $conn = new mysqli("localhost", "root", "", "dolphin_crm");
 
 if ($conn->connect_error) {
@@ -25,7 +24,7 @@ if ($result->num_rows === 1) {
         $_SESSION['lastname'] = $user['lastname'];
         $_SESSION['role'] = $user['role'];
 
-        header("Location: sidebar.php");
+        header("Location: homepage.php");
         exit();
     } else {
         echo "Invalid password.";
